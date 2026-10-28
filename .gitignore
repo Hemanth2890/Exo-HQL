@@ -47,3 +47,13 @@ __pycache__/
 *.jpeg
 *.pdf
 *.zip
+
+# Files the Streamlit app needs at runtime (must stay last so they override the rules above)
+!requirements.txt
+!kerrville_mdp_dataset.csv
+!behavior_cloning.d3
+!discrete_cql.d3
+!discrete_iql.pt
+!cost_calibrated_iql.pt
+!exo_hql.pt
+!exo_hql_shielded.pt

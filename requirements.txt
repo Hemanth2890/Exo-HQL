@@ -1,0 +1,14 @@
+# CPU-only PyTorch wheel: the default Linux wheel bundles CUDA (~2.5 GB) and
+# is too large for Streamlit Community Cloud
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0+cpu
+
+streamlit==1.66.1
+altair==6.3.0
+pandas==3.0.6
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+d3rlpy==2.8.1
+gym==0.26.2
+gymnasium==1.0.0
