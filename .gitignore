@@ -1,0 +1,49 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded datasets and cached data
+multigauge/
+iv_cache/
+*.csv
+*.parquet
+*.json
+
+# Model files
+*.pt
+*.d3
+
+# Logs
+*.log
+d3rlpy_logs/
+
+# Images and documents
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.zip
+
+# Research and tool folders
+paper/
+.claude/
+d3rlpy_logs/
+paper/
+iv_cache/
+multigauge/
+.venv/
+__pycache__/
+*.csv
+*.parquet
+*.json
+*.pt
+*.d3
+*.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
